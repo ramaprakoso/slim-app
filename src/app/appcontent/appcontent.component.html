@@ -1,0 +1,22 @@
+    <!-- END: Main Menu-->
+    <!-- BEGIN: Content-->
+    <div class="app-content content">
+        <div class="content-wrapper">
+            <div class="content-header row mb-1">
+            </div>
+            <div class="content-body">
+                    <div class="main-menu-content">
+                        <h3>Top Heroes</h3>
+                            <ul>
+                                <li *ngFor="let region of regions">
+                                    <span class="badge">{{region.code}}</span>
+                                </li>
+                            </ul>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!-- END: Content-->
+
+    <div class="sidenav-overlay"></div>
+    <div class="drag-target"></div>
